@@ -1,3 +1,5 @@
+@use "./colors" as *;
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,4 +13,19 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
+}
+
+.navbar {
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 2.2rem;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+  }
+
+  .icon-nav {
+    color: $mainColor;
+  }
 }
