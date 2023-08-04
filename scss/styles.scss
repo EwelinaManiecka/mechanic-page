@@ -208,7 +208,33 @@ footer {
 
 .contact-hero {
   background-image: url("../img/contact/shelby-big.jpg");
-  background-position: 0 75%;
+  background-position: 0 40%;
+}
+
+.contact h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.6rem;
+}
+
+.contact-logo {
+  font-size: 3rem;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+  font-size: 1.6rem;
+}
+
+.contact .btn {
+  padding: 0.3em 0.8em;
+  font-size: 2rem;
+}
+
+.contact-map iframe {
+  width: 100%;
+  min-height: 400px;
 }
 
 @media (min-width: 992px) {
