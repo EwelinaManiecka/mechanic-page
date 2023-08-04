@@ -79,6 +79,10 @@ header .carousel-img-three {
   font-weight: bold;
 }
 
+footer {
+  font-size: 1.6rem;
+}
+
 @media (min-width: 1280px) {
   header .carousel-item {
     height: 600px;
