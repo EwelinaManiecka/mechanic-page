@@ -23,6 +23,22 @@ body {
   z-index: -1;
 }
 
+.top-hero {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  height: 100%;
+}
+
 .navbar .navbar-brand {
   font-size: 2.4rem;
   font-weight: bold;
@@ -81,6 +97,11 @@ header .carousel-img-three {
 
 footer {
   font-size: 1.6rem;
+}
+
+.aboutus-hero {
+  background-image: url("../img/about/highway.jpg");
+  background-position: bottom;
 }
 
 @media (min-width: 1280px) {
