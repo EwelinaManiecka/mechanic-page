@@ -55,6 +55,25 @@ header .carousel-img-three {
   background-image: url("../img/main-carousel-3.jpg");
 }
 
+.home-boxes {
+  padding: 5em 0;
+}
+.home-boxes .home-box i {
+  font-size: 4rem;
+}
+.home-boxes .home-box h3 {
+  font-size: 2.6rem;
+}
+
+.home-passion {
+  position: relative;
+  height: 350px;
+  background-image: url("../img/sunset-small.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
 @media (min-width: 1280px) {
   header .carousel-item {
     height: 600px;
