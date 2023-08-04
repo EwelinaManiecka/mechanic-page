@@ -206,6 +206,11 @@ footer {
   text-transform: uppercase;
 }
 
+.contact-hero {
+  background-image: url("../img/contact/shelby-big.jpg");
+  background-position: 0 75%;
+}
+
 @media (min-width: 992px) {
   .aboutus-info .container {
     padding: 0;
