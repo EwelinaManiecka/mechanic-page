@@ -13,6 +13,16 @@ body {
   font-size: 1.6rem;
 }
 
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
 .navbar .navbar-brand {
   font-size: 2.4rem;
   font-weight: bold;
@@ -23,4 +33,39 @@ body {
 }
 .navbar .navbar-toggler {
   font-size: 3rem;
+}
+
+header {
+  font-size: 2rem;
+}
+header .carousel-item {
+  position: relative;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+header .carousel-img-one {
+  background-image: url("../img/main-carousel-1.jpg");
+}
+header .carousel-img-two {
+  background-image: url("../img/main-carousel-2.jpg");
+}
+header .carousel-img-three {
+  background-image: url("../img/main-carousel-3.jpg");
+}
+
+@media (min-width: 1280px) {
+  header .carousel-item {
+    height: 600px;
+  }
+  header .carousel-img-one {
+    background-image: url("../img/main-carousel-1-hq.jpg");
+  }
+  header .carousel-img-two {
+    background-image: url("../img/main-carousel-2-hq.jpg");
+  }
+  header .carousel-img-three {
+    background-image: url("../img/main-carousel-3-hq.jpg");
+  }
 }/*# sourceMappingURL=styles.css.map */
