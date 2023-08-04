@@ -74,6 +74,11 @@ header .carousel-img-three {
   z-index: 0;
 }
 
+.home-brand h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 @media (min-width: 1280px) {
   header .carousel-item {
     height: 600px;
@@ -86,5 +91,11 @@ header .carousel-img-three {
   }
   header .carousel-img-three {
     background-image: url("../img/main-carousel-3-hq.jpg");
+  }
+  .home-passion {
+    background-image: url("../img/sunset-big.jpg");
+  }
+  .img-car {
+    background-image: url("../img/car-big.png");
   }
 }/*# sourceMappingURL=styles.css.map */
